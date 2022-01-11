@@ -165,6 +165,7 @@ def main():
     parser.add_argument('--model_rootdir', '-mdir', type=str, default='./model/arctic/', help='model file directory')
     parser.add_argument('--log_dir', '-ldir', type=str, default='./logs/arctic/', help='log file directory')
     parser.add_argument('--experiment_name', '-exp', default='experiment1', type=str, help='experiment name')
+    parser.add_argument('--kernel', '-k', type=int, default=1, help='kernel size')
     args = parser.parse_args()
 
     # Set up GPU
@@ -175,6 +176,7 @@ def main():
     if device.type == 'cuda':
         torch.cuda.set_device(device)
         
+    kernel=args.kernel
     if kernel==2:
         import net_k2
     elif kernel==1:

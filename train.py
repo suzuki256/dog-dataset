@@ -247,16 +247,25 @@ def main():
     with open(config_path, 'w') as outfile:
         json.dump(model_config, outfile, indent=4)
     
-    if arch_type=='conv':
-        gen = net.Generator1(num_mels, n_spk, zdim, hdim, sdim, normtype, src_conditioning)
-    elif arch_type=='rnn':
-        net.Generator2(num_mels, n_spk, zdim, hdim, sdim, src_conditioning=src_conditioning)
+    
     
     if kernel==2:
+        if arch_type=='conv':
+            gen = net_k2.Generator1(num_mels, n_spk, zdim, hdim, sdim, normtype, src_conditioning)
+        elif arch_type=='rnn':
+            net_k2.Generator2(num_mels, n_spk, zdim, hdim, sdim, src_conditioning=src_conditioning)
         dis = net_k2.Discriminator1(num_mels, n_spk, mdim, normtype)
     elif kernel==1:
+        if arch_type=='conv':
+            gen = net.Generator1(num_mels, n_spk, zdim, hdim, sdim, normtype, src_conditioning)
+        elif arch_type=='rnn':
+            net.Generator2(num_mels, n_spk, zdim, hdim, sdim, src_conditioning=src_conditioning)
         dis = net.Discriminator1(num_mels, n_spk, mdim, normtype)
     elif kernel==-2:
+        if arch_type=='conv':
+            gen = net_k_2.Generator1(num_mels, n_spk, zdim, hdim, sdim, normtype, src_conditioning)
+        elif arch_type=='rnn':
+            net_k_2.Generator2(num_mels, n_spk, zdim, hdim, sdim, src_conditioning=src_conditioning)
         dis = net_k_2.Discriminator1(num_mels, n_spk, mdim, normtype)
     models = {
         'gen' : gen,

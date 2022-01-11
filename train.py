@@ -256,23 +256,34 @@ def main():
         elif arch_type=='rnn':
             net_k2.Generator2(num_mels, n_spk, zdim, hdim, sdim, src_conditioning=src_conditioning)
         dis = net_k2.Discriminator1(num_mels, n_spk, mdim, normtype)
+        models = {
+        'gen' : gen,
+        'dis' : dis
+        }
+        models['stargan'] = net_2.StarGAN(models['gen'], models['dis'],n_spk,loss_type)
     elif kernel==1:
         if arch_type=='conv':
             gen = net.Generator1(num_mels, n_spk, zdim, hdim, sdim, normtype, src_conditioning)
         elif arch_type=='rnn':
             net.Generator2(num_mels, n_spk, zdim, hdim, sdim, src_conditioning=src_conditioning)
         dis = net.Discriminator1(num_mels, n_spk, mdim, normtype)
+        models = {
+        'gen' : gen,
+        'dis' : dis
+        }
+        models['stargan'] = net.StarGAN(models['gen'], models['dis'],n_spk,loss_type)
     elif kernel==-2:
         if arch_type=='conv':
             gen = net_k_2.Generator1(num_mels, n_spk, zdim, hdim, sdim, normtype, src_conditioning)
         elif arch_type=='rnn':
             net_k_2.Generator2(num_mels, n_spk, zdim, hdim, sdim, src_conditioning=src_conditioning)
         dis = net_k_2.Discriminator1(num_mels, n_spk, mdim, normtype)
-    models = {
+        models = {
         'gen' : gen,
         'dis' : dis
-    }
-    models['stargan'] = net.StarGAN(models['gen'], models['dis'],n_spk,loss_type)
+        }
+        models['stargan'] = net_k_2.StarGAN(models['gen'], models['dis'],n_spk,loss_type)
+    
 
     optimizers = {
         'gen' : optim.Adam(models['gen'].parameters(), lr=lrate_g, betas=(0.9,0.999)),

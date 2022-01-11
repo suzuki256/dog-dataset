@@ -53,6 +53,7 @@ def Train(models, epochs, train_dataset, train_loader, optimizers, device, model
     n_iter = 0
     for epoch in range(resume+1, epochs+1):
         b = 0
+        print("epoch : "+str(epoch))
         for X_list in train_loader:
             n_spk = len(X_list)
             xin = []

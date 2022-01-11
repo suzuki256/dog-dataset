@@ -12,6 +12,7 @@ from torch.utils.tensorboard import SummaryWriter
 from torch.utils.data import DataLoader
 
 from dataset import MultiDomain_Dataset, collate_fn
+
 import net
 
 def makedirs_if_not_exists(dir):
@@ -173,6 +174,15 @@ def main():
         device = torch.device('cpu')
     if device.type == 'cuda':
         torch.cuda.set_device(device)
+        
+    if kernel==2:
+        import net_k2
+    elif kernel==1:
+        import net
+    elif kernel==-1:
+        import net_k_1
+    elif kernel==-2:
+        import net_k_2 
 
     # Configuration for StarGAN
     num_mels = args.num_mels
@@ -234,12 +244,18 @@ def main():
     config_path = os.path.join(model_dir, 'model_config.json')
     with open(config_path, 'w') as outfile:
         json.dump(model_config, outfile, indent=4)
-
+    
     if arch_type=='conv':
         gen = net.Generator1(num_mels, n_spk, zdim, hdim, sdim, normtype, src_conditioning)
     elif arch_type=='rnn':
         net.Generator2(num_mels, n_spk, zdim, hdim, sdim, src_conditioning=src_conditioning)
-    dis = net.Discriminator1(num_mels, n_spk, mdim, normtype)
+    
+    if kernel==2:
+        dis = net_k2.Discriminator1(num_mels, n_spk, mdim, normtype)
+    elif kernel==1:
+        dis = net.Discriminator1(num_mels, n_spk, mdim, normtype)
+    elif kernel==-2:
+        dis = net_k_2.Discriminator1(num_mels, n_spk, mdim, normtype)
     models = {
         'gen' : gen,
         'dis' : dis

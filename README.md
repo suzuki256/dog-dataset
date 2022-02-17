@@ -1,4 +1,5 @@
 # 以下に使用した犬の音声データの原作者クレジットを載せる．  
+また，本実験で使用した犬のデータセットは，音が極端に小さい音声，大きい音声，ノイズが大きい音声を取り除いたもので構成されており，成犬のような低い音声と子犬のような高い音声があるため，音の高さでデータセットを分けている．　　
 (1) C. Jacoby and J. P. Bello, ”A Dataset and Taxonomy for Urban Sound Research”,
 22nd ACM International Conference on Multimedia, Orlando USA, Nov. 2014.  
 (2) The pet dog sound events data sets are available online at https://github.com/kyb2629/pdse.  

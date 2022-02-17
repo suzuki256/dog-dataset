@@ -1,4 +1,4 @@
-以下に使用した犬の音声データの原作者クレジットを載せる．
+# 以下に使用した犬の音声データの原作者クレジットを載せる．  
 (1) C. Jacoby and J. P. Bello, ”A Dataset and Taxonomy for Urban Sound Research”,
 22nd ACM International Conference on Multimedia, Orlando USA, Nov. 2014.
 (2) The pet dog sound events data sets are available online at https://github.com/kyb2629/pdse.

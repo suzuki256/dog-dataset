@@ -5,6 +5,7 @@ converted\_ [ Voice Conversion method ] \_ [ audio feature ]
 * acvae=Auxiliary classifier Variational Autoencoder-VC
 * mccs=mel-cepstral coefficients
 * melspec=mel-spectrogram  
+
 Cross-Entropy-StarGANのdiscriminatorとclassifierのカーネルサイズに関しては，
 converted\_sgvc\_ [ k〇 ]  
 となっており，〇の中が

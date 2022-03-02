@@ -1,17 +1,17 @@
 # 犬声合成をした音声サンプルは以下より再生可能 (A sample of the synthesized dog voice can be played below ）．  
 ディレクトリの見方は次のようになっている．  
-converted\_[ Voice Conversion method ]\_[ audio feature ]  
-sgvc=Cross-Entropy-StarGAN
-acvae=Auxiliary classifier Variational Autoencoder-VC
-mccs=mel-cepstral coefficients
-melspec=mel-spectrogram
+converted\_ [ Voice Conversion method ] \_ [ audio feature ]  
+* sgvc=Cross-Entropy-StarGAN
+* acvae=Auxiliary classifier Variational Autoencoder-VC
+* mccs=mel-cepstral coefficients
+* melspec=mel-spectrogram
 Cross-Entropy-StarGANのdiscriminatorとclassifierのカーネルサイズに関しては，
 converted\_sgvc\_[ k〇 ]  
 となっており，〇の中が
-k_2=k-2
-k_1=k-1
-k1=k+1
-k2=k+2
+* k_2=k-2
+* k_1=k-1
+* k1=k+1
+* k2=k+2
 を示している．  
 https://drive.google.com/drive/folders/1pQcEvnD6_r9F12U7iImevYdzoTTfpr7G?usp=sharing
 # 以下に使用した犬の音声データの原作者クレジットを載せる．

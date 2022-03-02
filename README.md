@@ -1,8 +1,13 @@
-#音声サンプル (audio samples) 
-犬声合成をした音声サンプルは以下より再生可能 (A sample of the synthesized dog voice can be played below ）．  
-https://drive.google.com/drive/folders/1pQcEvnD6_r9F12U7iImevYdzoTTfpr7G?usp=sharing
+# 音声サンプル (audio samples) 
 
-ディレクトリの見方は次のようになっている (The view of the directory is as follows).  
+犬声合成をした音声サンプルは以下より再生可能.  
+A sample of the synthesized dog voice can be played below ．  
+
+https://drive.google.com/drive/folders/1pQcEvnD6_r9F12U7iImevYdzoTTfpr7G?usp=sharing
+  
+  
+ディレクトリの見方は次のようになっている.  
+The view of the directory is as follows.    
 
 ```bash
 converted _ [ Voice Conversion method ] _ [ audio feature ]  
@@ -15,7 +20,8 @@ audio feature
 * mccs=mel-cepstral coefficients
 * melspec=mel-spectrogram  
 
-Cross-Entropy-StarGANのdiscriminatorとclassifierのカーネルサイズに関しては，  
+Cross-Entropy-StarGANのdiscriminatorとclassifierのカーネルサイズに関しては次のようになっている．  
+The kernel sizes of the discriminator and classifier in Cross-Entropy-StarGAN are as follows.  
 ```bash
 converted _sgvc _ [ kernel size ]  
 ```
@@ -24,9 +30,13 @@ kernel size
 * k_1=default kernel size - 1
 * k1=default kernel size + 1
 * k2=default kernel size + 2
-を示している．  
-# 以下に使用した犬の音声データの原作者クレジットを載せる．
-※本実験で使用した犬のデータセットは，下記の音声データの内，音が極端に小さい音声，大きい音声，ノイズが大きい音声を取り除いたもので構成されており，成犬のような低い音声と子犬のような高い音声があるため，音の高さでデータセットを分けている．  
+
+# クレジット (credit)  
+以下に使用した犬の音声データの原作者クレジットを載せる.  
+he following is the original author's credit for the voice data of the dog used．  
+※本実験で使用した犬のデータセットは，下記の音声データの内，音が極端に小さい音声，大きい音声，ノイズが大きい音声を取り除いたもので構成されている．また，成犬のような低い音声と子犬のような高い音声があるため，音の高さでデータセットを分けている．  
+※The dog dataset used in this experiment consists of the following speech data, from which extremely low, high, and noisy sounds are removed. The dataset is divided into two datasets based on sound height, since there are low sounds like adult dogs and high sounds like puppies.  
+
 (1) C. Jacoby and J. P. Bello, ”A Dataset and Taxonomy for Urban Sound Research”,
 22nd ACM International Conference on Multimedia, Orlando USA, Nov. 2014.  
 (2) The pet dog sound events data sets are available online at https://github.com/kyb2629/pdse.  

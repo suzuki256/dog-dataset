@@ -8,6 +8,7 @@ converted\_ [ Voice Conversion method ] \_ [ audio feature ]
 Voice Conversion method  
 * sgvc=Cross-Entropy-StarGAN
 * acvae=Auxiliary classifier Variational Autoencoder-VC  
+
 audio feature  
 * mccs=mel-cepstral coefficients
 * melspec=mel-spectrogram  

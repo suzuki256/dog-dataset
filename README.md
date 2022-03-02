@@ -1,8 +1,8 @@
 # 犬声合成をした音声サンプルは以下より再生可能 
-(A sample of the synthesized dog voice can be played below ）．  
-converted\_[Voice Conversion method]\_[audio feature]  
+#(A sample of the synthesized dog voice can be played below ）．  
+converted\_[ Voice Conversion method ]\_[ audio feature ]  
 Cross-Entropy-StarGANのdiscriminatorとclassifierのカーネルサイズに関しては，
-converted\_sgvc\_[k〇]  
+converted\_sgvc\_[ k〇 ]  
 となっており，〇の中が
 k_2=k-2
 k_1=k-1

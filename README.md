@@ -15,9 +15,10 @@ audio feature
 * melspec=mel-spectrogram  
 
 Cross-Entropy-StarGANのdiscriminatorとclassifierのカーネルサイズに関しては，  
-
+```bash
 converted\_sgvc\_ [ kernel size ]  
-となっており，それぞれ
+```
+kernel size  
 * k_2=default kernel size - 2
 * k_1=default kernel size - 1
 * k1=default kernel size + 1

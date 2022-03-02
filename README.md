@@ -4,7 +4,7 @@ https://drive.google.com/drive/folders/1pQcEvnD6_r9F12U7iImevYdzoTTfpr7G?usp=sha
 ディレクトリの見方は次のようになっている (The view of the directory is as follows).  
 
 ```bash
-converted_ [ Voice Conversion method ] _ [ audio feature ]  
+converted _ [ Voice Conversion method ] _ [ audio feature ]  
 ```
 Voice Conversion method  
 * sgvc=Cross-Entropy-StarGAN
@@ -16,7 +16,7 @@ audio feature
 
 Cross-Entropy-StarGANのdiscriminatorとclassifierのカーネルサイズに関しては，  
 ```bash
-converted\_sgvc\_ [ kernel size ]  
+converted _sgvc _ [ kernel size ]  
 ```
 kernel size  
 * k_2=default kernel size - 2

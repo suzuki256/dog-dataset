@@ -1,4 +1,6 @@
-# 犬声合成をした音声サンプルは以下より再生できる．
+# 犬声合成をした音声サンプルは以下より再生可能 (A sample of the synthesized dog voice can be played below ）．  
+converted\_[Voice\ Conversion\ method]\_[audio\ feature]  
+カーネルサイズに関しては
 https://drive.google.com/drive/folders/1pQcEvnD6_r9F12U7iImevYdzoTTfpr7G?usp=sharing
 # 以下に使用した犬の音声データの原作者クレジットを載せる．
 ※本実験で使用した犬のデータセットは，下記の音声データの内，音が極端に小さい音声，大きい音声，ノイズが大きい音声を取り除いたもので構成されており，成犬のような低い音声と子犬のような高い音声があるため，音の高さでデータセットを分けている．  

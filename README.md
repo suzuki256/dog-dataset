@@ -1,5 +1,8 @@
 # 犬声合成をした音声サンプルは以下より再生可能 (A sample of the synthesized dog voice can be played below ）．  
-ディレクトリの見方は次のようになっている．  
+https://drive.google.com/drive/folders/1pQcEvnD6_r9F12U7iImevYdzoTTfpr7G?usp=sharing
+
+ディレクトリの見方は次のようになっている (The view of the directory is as follows).
+
 converted\_ [ Voice Conversion method ] \_ [ audio feature ]  
 * sgvc=Cross-Entropy-StarGAN
 * acvae=Auxiliary classifier Variational Autoencoder-VC
@@ -7,6 +10,7 @@ converted\_ [ Voice Conversion method ] \_ [ audio feature ]
 * melspec=mel-spectrogram  
 
 Cross-Entropy-StarGANのdiscriminatorとclassifierのカーネルサイズに関しては，  
+
 converted\_sgvc\_ [ kernel size ]  
 となっており，それぞれ
 * k_2=default kernel size - 2
@@ -14,7 +18,6 @@ converted\_sgvc\_ [ kernel size ]
 * k1=default kernel size + 1
 * k2=default kernel size + 2
 を示している．  
-https://drive.google.com/drive/folders/1pQcEvnD6_r9F12U7iImevYdzoTTfpr7G?usp=sharing
 # 以下に使用した犬の音声データの原作者クレジットを載せる．
 ※本実験で使用した犬のデータセットは，下記の音声データの内，音が極端に小さい音声，大きい音声，ノイズが大きい音声を取り除いたもので構成されており，成犬のような低い音声と子犬のような高い音声があるため，音の高さでデータセットを分けている．  
 (1) C. Jacoby and J. P. Bello, ”A Dataset and Taxonomy for Urban Sound Research”,

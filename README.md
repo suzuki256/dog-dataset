@@ -44,6 +44,7 @@ conversion from adultdog to fkn
 # クレジット (credit)  
 以下に使用した犬の音声データの原作者クレジットを載せる.  
 he following is the original author's credit for the voice data of the dog used．  
+
 ※本実験で使用した犬のデータセットは，下記の音声データの内，音が極端に小さい音声，大きい音声，ノイズが大きい音声を取り除いたもので構成されている．また，成犬のような低い音声と子犬のような高い音声があるため，音の高さでデータセットを分けている．  
 ※The dog dataset used in this experiment consists of the following speech data, from which extremely low, high, and noisy sounds are removed. The dataset is divided into two datasets based on sound height, since there are low sounds like adult dogs and high sounds like puppies.  
 

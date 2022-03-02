@@ -1,5 +1,5 @@
-# 犬声合成をした音声サンプルは以下より再生可能(A sample of the synthesized dog voice can be played below ）．  
-ディレクトリの見方は次のようになっている．
+# 犬声合成をした音声サンプルは以下より再生可能 (A sample of the synthesized dog voice can be played below ）．  
+ディレクトリの見方は次のようになっている．  
 converted\_[ Voice Conversion method ]\_[ audio feature ]  
 sgvc=Cross-Entropy-StarGAN
 acvae=Auxiliary classifier Variational Autoencoder-VC

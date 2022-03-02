@@ -3,9 +3,9 @@ https://drive.google.com/drive/folders/1pQcEvnD6_r9F12U7iImevYdzoTTfpr7G?usp=sha
 
 ディレクトリの見方は次のようになっている (The view of the directory is as follows).  
 
-'''bash
+```bash
 converted\_ [ Voice Conversion method ] \_ [ audio feature ]  
-'''
+```
 Voice Conversion method  
 * sgvc=Cross-Entropy-StarGAN
 * acvae=Auxiliary classifier Variational Autoencoder-VC  

@@ -29,8 +29,18 @@ kernel size
 * k_2=default kernel size - 2
 * k_1=default kernel size - 1
 * k1=default kernel size + 1
-* k2=default kernel size + 2
+* k2=default kernel size + 2  
 
+音声ファイルに関しては次のようになっている．  
+```bash
+[ Source Speaker ] _ to _ [ Target Speaker ]
+```
+例　(For exsample) :  
+```bash
+adultdog_to_fkn  
+```
+adultdogからfknへの音声変換  
+conversion from adultdog to fkn  
 # クレジット (credit)  
 以下に使用した犬の音声データの原作者クレジットを載せる.  
 he following is the original author's credit for the voice data of the dog used．  

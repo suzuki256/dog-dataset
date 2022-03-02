@@ -1,4 +1,5 @@
-# 犬声合成をした音声サンプルは以下より再生可能 (A sample of the synthesized dog voice can be played below ）．  
+#音声サンプル (audio samples) 
+犬声合成をした音声サンプルは以下より再生可能 (A sample of the synthesized dog voice can be played below ）．  
 https://drive.google.com/drive/folders/1pQcEvnD6_r9F12U7iImevYdzoTTfpr7G?usp=sharing
 
 ディレクトリの見方は次のようになっている (The view of the directory is as follows).  

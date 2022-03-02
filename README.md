@@ -6,13 +6,13 @@ converted\_ [ Voice Conversion method ] \_ [ audio feature ]
 * mccs=mel-cepstral coefficients
 * melspec=mel-spectrogram  
 
-Cross-Entropy-StarGANのdiscriminatorとclassifierのカーネルサイズに関しては，
-converted\_sgvc\_ [ k〇 ]  
-となっており，〇の中が
-* k_2=k-2
-* k_1=k-1
-* k1=k+1
-* k2=k+2
+Cross-Entropy-StarGANのdiscriminatorとclassifierのカーネルサイズに関しては，  
+converted\_sgvc\_ [ kernel size ]  
+となっており，それぞれ
+* k_2=default kernel size - 2
+* k_1=default kernel size - 1
+* k1=default kernel size + 1
+* k2=default kernel size + 2
 を示している．  
 https://drive.google.com/drive/folders/1pQcEvnD6_r9F12U7iImevYdzoTTfpr7G?usp=sharing
 # 以下に使用した犬の音声データの原作者クレジットを載せる．

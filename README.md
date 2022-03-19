@@ -13,15 +13,15 @@ The view of the directory is as follows.
 converted _ [ Voice Conversion method ] _ [ audio feature ]  
 ```
 Voice Conversion method  
-* sgvc=Cross-Entropy-StarGAN
+* sgvc=StarGAN-VC
 * acvae=Auxiliary classifier Variational Autoencoder-VC  
 
 audio feature  
 * mccs=mel-cepstral coefficients
 * melspec=mel-spectrogram  
 
-Cross-Entropy-StarGANのdiscriminatorとclassifierのカーネルサイズに関しては次のようになっている．  
-The kernel sizes of the discriminator and classifier in Cross-Entropy-StarGAN are as follows.  
+StarGAN-VCのdiscriminatorとclassifierのカーネルサイズに関しては次のようになっている．  
+The kernel sizes of the discriminator and classifier in StarGAN are as follows.  
 ```bash
 converted _sgvc _ [ kernel size ]  
 ```
@@ -46,7 +46,7 @@ conversion from adultdog to fkn
 he following is the original author's credit for the voice data of the dog used．  
 
 ※本実験で使用した犬のデータセットは，下記の音声データの内，音が極端に小さい音声，大きい音声，ノイズが大きい音声を取り除いたもので構成されている．また，成犬のような低い音声と子犬のような高い音声があるため，音の高さでデータセットを分けている．  
-※The dog dataset used in this experiment consists of the following speech data, from which extremely low, high, and noisy sounds are removed. The dataset is divided into two datasets based on sound height, since there are low sounds like adult dogs and high sounds like puppies.  
+※The dog dataset used in this experiment consists of the following speech data, from which extremely quiet, loud, and noisy sounds are removed. The dataset is divided into two datasets based on sound height, since there are low sounds like adult dogs and high sounds like puppies.  
 
 (1) C. Jacoby and J. P. Bello, ”A Dataset and Taxonomy for Urban Sound Research”,
 22nd ACM International Conference on Multimedia, Orlando USA, Nov. 2014.  

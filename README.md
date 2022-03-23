@@ -50,7 +50,6 @@ he following is the original author's credit for the voice data of the dog used�
 
 (1) C. Jacoby and J. P. Bello, ”A Dataset and Taxonomy for Urban Sound Research”,
 22nd ACM International Conference on Multimedia, Orlando USA, Nov. 2014.  
-(2) The pet dog sound events data sets are available online at https://github.com/kyb2629/pdse.  
 (3) Naoya Takahashi, Michael Gygli, Beat Pfister and Luc Van Gool, ”Deep Convolutional
 Neural Networks and Data Augmentation for Acoustic Event Recognition”,
 Proc. Interspeech 2016, San Fransisco  

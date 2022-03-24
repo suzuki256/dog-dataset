@@ -163,7 +163,7 @@ https://freesound.org/s/236051/
 (66) ”Doggy Style / Robinhood76 00889 watching dog 2 dog2pup.wav” by Timbre, https://freesound.org/(67) ”Dog Barking Short Sound Effect” by SOANAC, https://www.freesoundslibrary.com/dogbarking-short-sound-effect/#google vignette  
 (68) ”Angry Dog Barking Sound Effect” by SPANAC, https://www.freesoundslibrary.com/angrydog-barking-sound-effect/　
 (69) ”Nervous Dog Barking Sound Effect” by SPANAC, https://www.freesoundslibrary.com/nervousdog-barking-sound-effect/  
-(70) ”Angry Dog Barking Close Sound Effect” by SPANAC, https://www.freesoundslibrary.com/angrydog-barking-close-sound-effect/  
+(70) ”Angry Dog Barking Close Sound Effect” by SPANAC, https://www.freesoundslibrary.com/angry-dog-barking-close-sound-effect/
 (71) ”Aggressive Dog Barking Sound Effect” by SPANAC, https://www.freesoundslibrary.com/aggressivedog-barking-sound-effect/  
 (72) ”Dog Barking Sound Effect” by SPANAC, https://www.freesoundslibrary.com/dogbarking-sound-effect/  
 (73) ”Barking Dog Sound”, by SPANAC, https://www.freesoundslibrary.com/barkingdog-sound/  

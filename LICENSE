@@ -1,7 +1,7 @@
 ## Dataset license
 
 The dataset as a whole is available under the terms of the Creative Commons
-Attribution-NonCommercial license (http://creativecommons.org/licenses/by-nc/3.0/ and https://creativecommons.org/licenses/by/4.0/legalcode).
+Attribution-NonCommercial license (https://creativecommons.org/share-your-work/public-domain/cc0/, http://creativecommons.org/licenses/by-nc/3.0/, and https://creativecommons.org/licenses/by/4.0/legalcode).
 
 1. Acoustic Event Dataset
   - You can download [here](https://data.vision.ee.ethz.ch/cvl/ae_dataset/ae_dataset.zip). In this example it's in '''./dataset/'''
@@ -15,14 +15,14 @@ Attribution-NonCommercial license (http://creativecommons.org/licenses/by-nc/3.0
       dog_barking_56,57.wav, dog_barking_58.wav, dog_barking_60.wav, dog_barking_61.wav, dog_barking_63.wav, dog_barking_65,67.wav, dog_barking_68.wav, 
       dog_barking_69.wav, dog_barking_70.wav, dog_barking_71.wav, dog_barking_72.wav, dog_barking_74.wav, dog_barking_75.wav, dog_barking_76.wav, dog_barking_77.wav, 
       dog_barking_79.wav, dog_barking_80.wav, dog_barking_81.wav, dog_barking_83.wav, dog_barking_84.wav, dog_barking_85.wav, dog_barking_86.wav, dog_barking_87.wav, 
-      dog_barking_88.wav, dog_barking_95.wav, dog_barking_96.wav, dog_barking_97.wav, dog_barking_101.wav, dog_barking_102.wav, dog_barking_105.wav, dog_barking_110.wav, 
-      dog_barking_8.wav, dog_barking_12.wav, dog_barking_15.wav, dog_barking_34.wav, dog_barking_43.wav, dog_barking_44.wav, dog_barking_45.wav, dog_barking_46.wav, 
-      dog_barking_48.wav, dog_barking_49.wav, dog_barking_54.wav, dog_barking_59.wav, dog_barking_62.wav, dog_barking_64.wav, dog_barking_66.wav, dog_barking_73.wav, 
-      dog_barking_78.wav, dog_barking_82.wav, dog_barking_89.wav, dog_barking_90.wav, dog_barking_91
+      dog_barking_88.wav, dog_barking_95.wav, dog_barking_96.wav, dog_barking_97.wav, dog_barking_101.wav, dog_barking_102.wav, dog_barking_105.wav, 
+      dog_barking_110.wav, dog_barking_8.wav, dog_barking_12.wav, dog_barking_15.wav, dog_barking_34.wav, dog_barking_43.wav, dog_barking_44.wav, dog_barking_45.wav, 
+      dog_barking_46.wav, dog_barking_48.wav, dog_barking_49.wav, dog_barking_54.wav, dog_barking_59.wav, dog_barking_62.wav, dog_barking_64.wav, dog_barking_66.wav, 
+      dog_barking_73.wav, dog_barking_78.wav, dog_barking_82.wav, dog_barking_89.wav, dog_barking_90.wav, dog_barking_91
       
     # Puppy
-    dog_barking_5.wav, dog_barking_21.wav, dog_barking_22.wav, dog_barking_92.wav, dog_barking_93.wav, dog_barking_94.wav, dog_barking_103.wav, dog_barking_111.wav, 
-    dog_barking_7.wav, dog_barking_9.wav, dog_barking_19.wav, dog_barking_24
+      dog_barking_5.wav, dog_barking_21.wav, dog_barking_22.wav, dog_barking_92.wav, dog_barking_93.wav, dog_barking_94.wav, dog_barking_103.wav, dog_barking_111.wav, 
+      dog_barking_7.wav, dog_barking_9.wav, dog_barking_19.wav, dog_barking_24
     
 2. ESC: Dataset for Environmental Sound Classification
   - You can download [here](https://github.com/karoldvl/ESC-50/archive/master.zip)
@@ -101,22 +101,38 @@ Attribution-NonCommercial license (http://creativecommons.org/licenses/by-nc/3.0
     # Puppy
       dog_8.wav, dog_9.wav, dog_11.wav, dog_12.wav, dog_16.wav, dog_17.wav, dog_25.wav, dog_33.wav, dog_37.wav, dog_41.wav, dog_42.wav
       5 seconds in the first half of the audio
-5. We also collect freesound.org, freesoundlibrary, and Youtube
+      
+5. We also collect freesound.org, freesoundlibrary, and Youtube.
   -We write the following credits: ["Sound Title"] by [author], [URL of sound page]
   # Adult dog
     -"single dog bark 1" by crazymonke9, https://freesound.org/people/crazymonke9/sounds/418107/  
     -"single dog bark 3" by crazymonke9, https://freesound.org/s/418105/
     -"Doggy Style / Robinhood76 00889 watching dog 2 dog2pup.wav" by Timbre, https://freesound.org/people/Timbre/sounds/74723/, (5 seconds in the first half of the audio)
     -"Dog Barking Short Sound Effect" by SOANAC, https://www.freesoundslibrary.com/dog-barking-short-sound-effect/
-    -"A dog barking (close recording)" by felix.blume, https://freesound.org/people/felix.blume/sounds/199261/
+    -"Dog Bark.wav" by Juan Merie Venter, https://freesound.org/s/327666/  
+    -"Large_dog_whimpering_whining_crying.wav" by Astounded, https://freesound.org/people/Astounded/sounds/556035/  
+    -"Mr Dog_01.wav" by apolloaiello, https://freesound.org/s/276267/
+    -”Blossom Bark 29sec mix.wav” by Zajjman, https://freesound.org/s/456943/
+    -”Dog / Dog Bark Staffordshire Bullterrier” by Anton, https://freesound.org/s/157322/
+    -”Animals - Dogs / Dog bark 2” by jorickhoofd, https://freesound.org/s/160093/
+    -”Dog sounds / DogGrunt.wav” by TobiasKosmos, https://freesound.org/s/163282/
+    -”Dogs playing / Dog bark with echo and splash” by Vortichez, https://freesound.org/s/545440/
+    
     -"Dog Barking Sound Effects" by SFX BOX, https://www.youtube.com/watch?v=sb4rhvie67A&list=PLkz8qouQX6XMTzq06C_vf32b9PlTsGkJp
     -"Far Away Dog Barking Sound Effect" by SFX BOX, https://www.youtube.com/watch?v=tzS98DyMzOw&list=PLkz8qouQX6XMTzq06C_vf32b9PlTsGkJp&index=2
     -"Dog Breathing Sound Effect" by SFX BOX, https://www.youtube.com/watch?v=m_VDG5-QsBM&list=PLkz8qouQX6XMTzq06C_vf32b9PlTsGkJp&index=3
-    
+    -"FREE SOUND EFFECT - DOG [NO COPYRIGHT]" by Ultimate Free Sound Effects Channel, https://www.youtube.com/watch?v=noFC1pmMT64, (used between 0:00~0:10 and 0:46~0:58)
+    -"DOG GROWLING SOUND EFFECT - Big German Shepherd Dog Growling Noise | Free Sound Effects Download" by Kiddopedia Animals, https://www.youtube.com/watch?v=ETUPrxEC8I4, (used between 0:05~1:36)
+    -"Angry Dog Barking sound effect no copyright | Angry dog noise | dog sounds | HQ" by Nagaty Studio, https://www.youtube.com/watch?v=J6hzK6_MpHs, (used Track 1, Track 2, Track 3, Track 4, and Track 6 in https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbXFDek9WTVBzTG1BYjdlbTZqOUt1a1pIZkVtQXxBQ3Jtc0ttbFFqSkVfb3pjaGloVG1XMzlGN2dwakJjR1oxb0NiekxxZnBMTEh2cGsyczlzR2p4bkFTa2I1dFcwNFZyMHdrMk1WYTM4ajN0SHowOWJ4S1pOdzJ4MjVlNjkxWkFrV0htQWRRaWpPWTlCS3lucDBZRQ&q=https%3A%2F%2Fdrive.google.com%2Fdrive%2Ffolders%2F1-8imJUJVqnKxro67YjqpQuhqpx4N7zY0%3Fusp%3Dsharing)
     
     
   #Puppy
+    -”Dog Barking, Single, A.wav” by InspectorJ, https://freesound.org/people/InspectorJ/sounds/406085/
+    -”LBS FX DOG Small Alert Bark001.wav” by LittleBigSounds, https://freesound.org/s/163459/
+    -”Jazz the Dog (Howl & Bark) / Jazz the Dog Howl Bark (128).wav” by delphidebrain, https://freesound.org/s/236051/
+    -
     -”Doggy Style / Robinhood76 00889 watching dog 2 dog2pup.wav” by Timbre, https://freesound.org/people/Timbre/sounds/74723/, (The last 5 seconds of the audio) 
     -"Small Dog Wimper Sound Effects" by SFX BOX, https://www.youtube.com/watch?v=8w9moCkgM4E&list=PLkz8qouQX6XMTzq06C_vf32b9PlTsGkJp&index=4
     -"Playful Dog Growling Sound Effect" by SFX BOX, https://www.youtube.com/watch?v=itfxW4oNN20&list=PLkz8qouQX6XMTzq06C_vf32b9PlTsGkJp&index=9
+    -"FREE SOUND EFFECT - DOG [NO COPYRIGHT]" by Ultimate Free Sound Effects Channel, https://www.youtube.com/watch?v=noFC1pmMT64, (used between 0:10~0:46)
   

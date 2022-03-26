@@ -3,4 +3,35 @@
 The dataset as a whole is available under the terms of the Creative Commons
 Attribution-NonCommercial license (http://creativecommons.org/licenses/by-nc/3.0/ and https://creativecommons.org/licenses/by/4.0/legalcode).
 
-
+1. Acoustic Event Dataset
+  - You can download [here](https://data.vision.ee.ethz.ch/cvl/ae_dataset/ae_dataset.zip). In this example it's in '''./dataset/'''
+  - Description and policy is [here](https://data.vision.ee.ethz.ch/cvl/ae_dataset/)
+  - Separate Acoustic Event Dataset into adult dogs and puppies, and the others are deleate
+    1. Adult dog
+      dog_barking_6.wav, dog_barking_10.wav, dog_barking_11.wav, dog_barking_13.wav, dog_barking_14.wav, dog_barking_16.wav, dog_barking_17.wav, dog_barking_18.wav, 
+      dog_barking_20.wav, dog_barking_23.wav, dog_barking_26.wav, dog_barking_27.wav, dog_barking_28.wav, dog_barking_29.wav, dog_barking_30.wav, dog_barking_31.wav, 
+      dog_barking_32.wav, dog_barking_33.wav, dog_barking_35.wav, dog_barking_36.wav, dog_barking_37.wav, dog_barking_38.wav, dog_barking_39.wav, dog_barking_40.wav, 
+      dog_barking_41.wav, dog_barking_42.wav, dog_barking_47.wav, dog_barking_50.wav, dog_barking_51.wav, dog_barking_52.wav, dog_barking_53.wav, dog_barking_55.wav, 
+      dog_barking_56,57.wav, dog_barking_58.wav, dog_barking_60.wav, dog_barking_61.wav, dog_barking_63.wav, dog_barking_65,67.wav, dog_barking_68.wav, 
+      dog_barking_69.wav, dog_barking_70.wav, dog_barking_71.wav, dog_barking_72.wav, dog_barking_74.wav, dog_barking_75.wav, dog_barking_76.wav, dog_barking_77.wav, 
+      dog_barking_79.wav, dog_barking_80.wav, dog_barking_81.wav, dog_barking_83.wav, dog_barking_84.wav, dog_barking_85.wav, dog_barking_86.wav, dog_barking_87.wav, 
+      dog_barking_88.wav, dog_barking_95.wav, dog_barking_96.wav, dog_barking_97.wav, dog_barking_101.wav, dog_barking_102.wav, dog_barking_105.wav, dog_barking_110.wav, 
+      dog_barking_8.wav, dog_barking_12.wav, dog_barking_15.wav, dog_barking_34.wav, dog_barking_43.wav, dog_barking_44.wav, dog_barking_45.wav, dog_barking_46.wav, 
+      dog_barking_48.wav, dog_barking_49.wav, dog_barking_54.wav, dog_barking_59.wav, dog_barking_62.wav, dog_barking_64.wav, dog_barking_66.wav, dog_barking_73.wav, 
+      dog_barking_78.wav, dog_barking_82.wav, dog_barking_89.wav, dog_barking_90.wav, dog_barking_91
+      
+    2. Puppy
+    dog_barking_5.wav, dog_barking_21.wav, dog_barking_22.wav, dog_barking_92.wav, dog_barking_93.wav, dog_barking_94.wav, dog_barking_103.wav, dog_barking_111.wav, 
+    dog_barking_7.wav, dog_barking_9.wav, dog_barking_19.wav, dog_barking_24
+    
+2. ESC: Dataset for Environmental Sound Classification
+  - You can download [here](https://github.com/karoldvl/ESC-50/archive/master.zip)
+  - Description and policy is [here](https://github.com/karolpiczak/ESC-50)
+  - Separate ESC Dataset into adult dogs and puppies, and the others are deleate.
+    1. Adult dog
+      5-231762-A-0.wav, 5-212454-A-0.wav, 5-203128-A-0.wav, 4-207124-A-0.wav, 4-199261-A-0.wav, 4-191687-A-0.wav, 4-182395-A-0.wav, 3-157695-A-0.wav, 3-155312-A-0.wav, 
+      2-122104-A-0.wav, 2-122104-B-0.wav, 2-116400-A-0.wav, 2-114280-A-0.wav, 1-32318-A-0.wav, 1-30344-A-0.wav, 1-110389-A-0.wav
+    2. Puppy
+      5-9032-A-0.wav, 5-208030-A-0.wav, 5-203128-B-0.wav, 4-192236-A-0.wav,  4-184575-A-0.wav, 3-180977-A-0.wav, 3-180256-A-0.wav, 3-144028-A-0.wav, 2-114587-A-0.wav, 
+      1-97392-A-0.wav, 1-100032-A-0.wav, 5-9032-A-0.wav, 5-208030-A-0.wav
+  

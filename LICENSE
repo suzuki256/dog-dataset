@@ -88,3 +88,16 @@ Attribution-NonCommercial license (http://creativecommons.org/licenses/by-nc/3.0
       85662-3-0-0.wav, 85663-3-0-0.wav, 85664-3-0-0.wav, 85665-3-0-0.wav, 86279-3-0-0.wav, 89207-3-0-0.wav, 89209-3-0-0.wav, 89210-3-0-0.wav, 89211-3-0-0.wav,
       89212-3-0-0.wav, 9031-3-1-0.wav, 9031-3-2-0.wav, 9031-3-3-0.wav, 9031-3-4-0.wav, 9032-3-0-0.wav, 9032-3-1-0.wav, 9032-3-2-0.wav, 97756-3-0-0.wav, 
       99185-3-0-0.wav
+      
+4. BarkMeowDB - WAV Files of Dogs and Cats
+  - You can download [here](https://zenodo.org/record/3563990/files/barkmeow_v0.2.tar.gz?download=1). In this example it's in '''./dataset/'''
+  - Description and policy is [here](https://zenodo.org/record/3563990#.Yj69FufP3b1).
+  - Separate URBANSOUND8K DATASET into adult adult dogs and puppies, and the others are deleate.
+    1. Adult dog
+      dog_0.wav, dog_2.wav, dog_3.wav, dog_4.wav, dog_5.wav, dog_7.wav, dog_10.wav, dog_13.wav, dog_14.wav, dog_15.wav, dog_20.wav, dog_21.wav, dog_22.wav, dog_23.wav,
+      dog_26.wav, dog_27.wav, dog_28.wav, dog_29.wav, dog_30.wav, dog_32.wav, dog_34.wav, dog_35.wav, dog_36.wav, dog_38.wav, dog_39.wav, dog_43.wav, dog_44.wav,
+      dog_45.wav
+      
+    2. Puppy
+      dog_8.wav, dog_9.wav, dog_11.wav, dog_12.wav, dog_16.wav, dog_17.wav, dog_25.wav, dog_33.wav, dog_37.wav, dog_41.wav, dog_42.wav
+      

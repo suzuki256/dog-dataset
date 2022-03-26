@@ -31,7 +31,15 @@ Attribution-NonCommercial license (http://creativecommons.org/licenses/by-nc/3.0
     1. Adult dog
       5-231762-A-0.wav, 5-212454-A-0.wav, 5-203128-A-0.wav, 4-207124-A-0.wav, 4-199261-A-0.wav, 4-191687-A-0.wav, 4-182395-A-0.wav, 3-157695-A-0.wav, 3-155312-A-0.wav, 
       2-122104-A-0.wav, 2-122104-B-0.wav, 2-116400-A-0.wav, 2-114280-A-0.wav, 1-32318-A-0.wav, 1-30344-A-0.wav, 1-110389-A-0.wav
+      
     2. Puppy
       5-9032-A-0.wav, 5-208030-A-0.wav, 5-203128-B-0.wav, 4-192236-A-0.wav,  4-184575-A-0.wav, 3-180977-A-0.wav, 3-180256-A-0.wav, 3-144028-A-0.wav, 2-114587-A-0.wav, 
       1-97392-A-0.wav, 1-100032-A-0.wav, 5-9032-A-0.wav, 5-208030-A-0.wav
-  
+     
+3. URBANSOUND8K DATASET
+  - You can download [here](https://urbansounddataset.weebly.com/download-urbansound8k.html). In this example it's in '''./dataset/'''
+  - Please [acknowledge](http://urbansounddataset.weebly.com/index.html#acknowledge) this dataset in academic research.
+  - Separate URBANSOUND8K DATASET into adult adult dogs and puppies, and the others are deleate.
+    1. Adult dog
+      
+    2. 

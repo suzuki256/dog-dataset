@@ -102,7 +102,7 @@ Zenodo. https://doi.org/10.5281/zenodo.3563990
 (6) Juan Merie Venter, Dog Bark.wav, https://freesound.org/s/327666/  
 (7) Astounded, Christopher J Astbury, Switzerland, https://freesound.org/people/Astounded/sounds/556035/  
 (8) apolloaiello, https://freesound.org/s/276267/  
-(9) ”Dog Barking, Single, A.wav” by InspectorJ (www.jshaw.co.uk) of Freesound.org  
+(9) ”Dog Barking, Single, A.wav” by InspectorJ, https://freesound.org/people/InspectorJ/sounds/406085/  
 (10) ”LBS FX DOG Small Alert Bark001.wav” by LittleBigSounds, https://freesound.org/s/163459/  
 (11) ”Blossom Bark 29sec mix.wav” by Zajjman, https://freesound.org/s/456943/  
 (12) ”Dog / Dog Bark Staffordshire Bullterrier” by Anton, https://freesound.org/s/157322/  

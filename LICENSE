@@ -7,7 +7,7 @@ Attribution-NonCommercial license (http://creativecommons.org/licenses/by-nc/3.0
   - You can download [here](https://data.vision.ee.ethz.ch/cvl/ae_dataset/ae_dataset.zip). In this example it's in '''./dataset/'''
   - Description and policy is [here](https://data.vision.ee.ethz.ch/cvl/ae_dataset/)
   - Separate Acoustic Event Dataset into adult dogs and puppies, and the others are deleate
-    1. Adult dog
+    # Adult dog
       dog_barking_6.wav, dog_barking_10.wav, dog_barking_11.wav, dog_barking_13.wav, dog_barking_14.wav, dog_barking_16.wav, dog_barking_17.wav, dog_barking_18.wav, 
       dog_barking_20.wav, dog_barking_23.wav, dog_barking_26.wav, dog_barking_27.wav, dog_barking_28.wav, dog_barking_29.wav, dog_barking_30.wav, dog_barking_31.wav, 
       dog_barking_32.wav, dog_barking_33.wav, dog_barking_35.wav, dog_barking_36.wav, dog_barking_37.wav, dog_barking_38.wav, dog_barking_39.wav, dog_barking_40.wav, 
@@ -20,7 +20,7 @@ Attribution-NonCommercial license (http://creativecommons.org/licenses/by-nc/3.0
       dog_barking_48.wav, dog_barking_49.wav, dog_barking_54.wav, dog_barking_59.wav, dog_barking_62.wav, dog_barking_64.wav, dog_barking_66.wav, dog_barking_73.wav, 
       dog_barking_78.wav, dog_barking_82.wav, dog_barking_89.wav, dog_barking_90.wav, dog_barking_91
       
-    2. Puppy
+    # Puppy
     dog_barking_5.wav, dog_barking_21.wav, dog_barking_22.wav, dog_barking_92.wav, dog_barking_93.wav, dog_barking_94.wav, dog_barking_103.wav, dog_barking_111.wav, 
     dog_barking_7.wav, dog_barking_9.wav, dog_barking_19.wav, dog_barking_24
     
@@ -28,11 +28,11 @@ Attribution-NonCommercial license (http://creativecommons.org/licenses/by-nc/3.0
   - You can download [here](https://github.com/karoldvl/ESC-50/archive/master.zip)
   - Description and policy is [here](https://github.com/karolpiczak/ESC-50)
   - Separate ESC Dataset into adult dogs and puppies, and the others are deleate.
-    1. Adult dog
+    # Adult dog
       5-231762-A-0.wav, 5-212454-A-0.wav, 5-203128-A-0.wav, 4-207124-A-0.wav, 4-199261-A-0.wav, 4-191687-A-0.wav, 4-182395-A-0.wav, 3-157695-A-0.wav, 3-155312-A-0.wav, 
       2-122104-A-0.wav, 2-122104-B-0.wav, 2-116400-A-0.wav, 2-114280-A-0.wav, 1-32318-A-0.wav, 1-30344-A-0.wav, 1-110389-A-0.wav
       
-    2. Puppy
+    # Puppy
       5-9032-A-0.wav, 5-208030-A-0.wav, 5-203128-B-0.wav, 4-192236-A-0.wav,  4-184575-A-0.wav, 3-180977-A-0.wav, 3-180256-A-0.wav, 3-144028-A-0.wav, 2-114587-A-0.wav, 
       1-97392-A-0.wav, 1-100032-A-0.wav, 5-9032-A-0.wav, 5-208030-A-0.wav
      
@@ -40,7 +40,7 @@ Attribution-NonCommercial license (http://creativecommons.org/licenses/by-nc/3.0
   - You can download [here](https://urbansounddataset.weebly.com/download-urbansound8k.html). In this example it's in '''./dataset/'''
   - Please [acknowledge](http://urbansounddataset.weebly.com/index.html#acknowledge) this dataset in academic research.
   - Separate URBANSOUND8K DATASET into adult adult dogs and puppies, and the others are deleate.
-    1. Adult dog
+    # Adult dog
       101415-3-0-2.wav, 101415-3-0-3.wav, 101415-3-0-8.wav, 102547-3-0-2.wav, 102547-3-0-7.wav, 102547-3-0-8.wav, 103076-3-0-0.wav, 103076-3-1-0.wav, 103076-3-2-0.wav, 
       105088-3-0-10.wav, 105088-3-0-11.wav, 105088-3-0-19.wav, 105088-3-0-8.wav, 107190-3-0-0.wav, 109233-3-0-3.wav, 109233-3-0-4.wav, 109233-3-0-5.wav, 
       109233-3-0-6.wav, 110389-3-0-0.wav, 113785-3-0-0.wav, 113785-3-1-0.wav, 114280-3-0-0.wav, 114280-3-0-1.wav, 115535-3-0-0.wav, 115537-3-0-0.wav, 
@@ -73,7 +73,7 @@ Attribution-NonCommercial license (http://creativecommons.org/licenses/by-nc/3.0
       77674-3-0-0.wav, 7913-3-0-0.wav, 82811-3-3-0.wav, 82811-3-4-0.wav, 84317-3-0-0.wav, 85362-3-0-0.wav, 85362-3-2-0.wav, 85544-3-5-0.wav, 85544-3-7-0.wav, 
       89213-3-0-0.wav, 95532-3-0-0.wav, 97193-3-0-0.wav, 97193-3-0-1.wav, 97193-3-0-4.wav, 97193-3-0-6.wav, 97392-3-0-0.wav
 
-    2. Puppy
+    # Puppy
       100032-3-0-0.wav, 100795-3-0-0.wav, 100795-3-1-0.wav, 100795-3-1-1.wav, 100795-3-1-2.wav, 110134-3-0-0.wav, 114587-3-0-2.wav, 114587-3-0-4.wav, 114587-3-0-5.wav,
       114587-3-0-7.wav, 116483-3-0-1.wav, 116483-3-0-2.wav, 116483-3-1-0.wav, 116483-3-1-2.wav, 116484-3-0-12.wav, 116484-3-0-16.wav, 116484-3-0-6.wav, 
       116484-3-0-8.wav, 116485-3-0-4.wav, 116485-3-0-6.wav, 116485-3-2-0.wav, 116485-3-2-4.wav, 118072-3-0-0.wav, 118101-3-0-0.wav, 125523-3-0-1.wav, 
@@ -93,15 +93,19 @@ Attribution-NonCommercial license (http://creativecommons.org/licenses/by-nc/3.0
   - You can download [here](https://zenodo.org/record/3563990/files/barkmeow_v0.2.tar.gz?download=1). In this example it's in '''./dataset/'''
   - Description and policy is [here](https://zenodo.org/record/3563990#.Yj69FufP3b1).
   - Separate URBANSOUND8K DATASET into adult adult dogs and puppies, and the others are deleate.
-    1. Adult dog
+    # Adult dog
       dog_0.wav, dog_2.wav, dog_3.wav, dog_4.wav, dog_5.wav, dog_7.wav, dog_10.wav, dog_13.wav, dog_14.wav, dog_15.wav, dog_20.wav, dog_21.wav, dog_22.wav, dog_23.wav,
       dog_26.wav, dog_27.wav, dog_28.wav, dog_29.wav, dog_30.wav, dog_32.wav, dog_34.wav, dog_35.wav, dog_36.wav, dog_38.wav, dog_39.wav, dog_43.wav, dog_44.wav,
       dog_45.wav
       
-    2. Puppy
+    # Puppy
       dog_8.wav, dog_9.wav, dog_11.wav, dog_12.wav, dog_16.wav, dog_17.wav, dog_25.wav, dog_33.wav, dog_37.wav, dog_41.wav, dog_42.wav
       
-5. The others
-  -”dog barking / single dog bark 1” by crazymonke9, https://freesound.org/people/crazymonke9/sounds/418107/  
-  -"single dog bark 3", by crazymonke9, https://freesound.org/s/418105/  
+5. We also collect freesound.org
+  # Adult dog
+    -”dog barking / single dog bark 1” by crazymonke9, https://freesound.org/people/crazymonke9/sounds/418107/  
+    -"single dog bark 3", by crazymonke9, https://freesound.org/s/418105/  
+    
+  #Puppy
+    -
   

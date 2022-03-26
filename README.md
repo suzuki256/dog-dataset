@@ -89,7 +89,7 @@ The following is the original author's credit for the voice data of the dog used
 ※本実験で使用した犬のデータセットは，下記の音声データの内，音が極端に小さい音声，大きい音声，ノイズが大きい音声を取り除いたもので構成されている．また，成犬のような低い音声と子犬のような高い音声があるため，音の高さでデータセットを分けている．  
 ※The dog dataset used in this experiment consists of the following speech data, from which extremely quiet, loud, and noisy sounds are removed. The dataset is divided into two datasets based on sound height, since there are low sounds like adult dogs and high sounds like puppies.  
 
-(1) C. Jacoby and J. P. Bello, ”A Dataset and Taxonomy for Urban Sound Research”,
+<!-- (1) C. Jacoby and J. P. Bello, ”A Dataset and Taxonomy for Urban Sound Research”,
 22nd ACM International Conference on Multimedia, Orlando USA, Nov. 2014.  
 (3) Naoya Takahashi, Michael Gygli, Beat Pfister and Luc Van Gool, ”Deep Convolutional
 Neural Networks and Data Augmentation for Acoustic Event Recognition”,
@@ -98,7 +98,8 @@ Proc. Interspeech 2016, San Fransisco
 the 23rd Annual ACM Conference on Multimedia, Brisbane, Australia, 2015. [DOI:
 http://dx.doi.org/10.1145/2733373.2806390]  
 (5) Suh, Dan. (2019). BarkMeowDB - WAV Files of Dogs and Cats (0.2) [Data set].
-Zenodo. https://doi.org/10.5281/zenodo.3563990  
+Zenodo. https://doi.org/10.5281/zenodo.3563990   -->
+
 (6) Juan Merie Venter, Dog Bark.wav, https://freesound.org/s/327666/  
 (7) Astounded, Christopher J Astbury, Switzerland, https://freesound.org/people/Astounded/sounds/556035/  
 (8) apolloaiello, https://freesound.org/s/276267/  
@@ -167,7 +168,7 @@ https://freesound.org/s/236051/
 (69) ”Nervous Dog Barking Sound Effect” by SPANAC, https://www.freesoundslibrary.com/nervousdog-barking-sound-effect/  
 (70) ”Angry Dog Barking Close Sound Effect” by SPANAC, https://www.freesoundslibrary.com/angry-dog-barking-close-sound-effect/
 (71) ”Aggressive Dog Barking Sound Effect” by SPANAC, https://www.freesoundslibrary.com/aggressivedog-barking-sound-effect/  
-(72) ”Dog Barking Sound Effect” by SPANAC, https://www.freesoundslibrary.com/dogbarking-sound-effect/  
+<!-- (72) ”Dog Barking Sound Effect” by SPANAC, https://www.freesoundslibrary.com/dogbarking-sound-effect/   -->
 (73) ”Barking Dog Sound”, by SPANAC, https://www.freesoundslibrary.com/barkingdog-sound/  
 (74) ”Large Dog Bark Once Sound Effect” by SPANAC, https://www.freesoundslibrary.com/largedog-bark-once-sound-effect/  
 (75) ”Dog Growling Sound Effect” by SPANAC, https://www.freesoundslibrary.com/doggrowling-sound-effect/

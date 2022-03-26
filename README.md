@@ -107,7 +107,8 @@ Zenodo. https://doi.org/10.5281/zenodo.3563990
 (11) ”Blossom Bark 29sec mix.wav” by Zajjman, https://freesound.org/s/456943/  
 (12) ”Dog / Dog Bark Staffordshire Bullterrier” by Anton, https://freesound.org/s/157322/  
 (13) ”Animals - Dogs / Dog bark 2” by jorickhoofd, https://freesound.org/s/160093/  
-(14) ”dog barking / single dog bark 1” by crazymonke9  
+<!-- ”dog barking / single dog bark 1” by crazymonke9, https://freesound.org/people/crazymonke9/sounds/418107/  
+"single dog bark 3", by crazymonke9, https://freesound.org/s/418105/   -->
 (15) ”Dog sounds / DogGrunt.wav” by TobiasKosmos, https://freesound.org/s/163282/  
 (16) ”Dogs playing / Dog bark with echo and splash” by Vortichez, https://freesound.org/s/545440/  
 (17) ”Jazz the Dog (Howl & Bark) / Jazz the Dog Howl Bark (128).wav” by delphidebrain,
@@ -160,7 +161,8 @@ https://freesound.org/s/236051/
 (63) ”Small dog crying .wav” by Pablobd, https://freesound.org/s/511011/  
 (64) ”Dog Barking 2.wav” by Benboncan, https://freesound.org/s/105088/  
 (65) ”Aggressive Guard Dogs” by Oneirophile, https://freesound.org/s/142344/  
-(66) ”Doggy Style / Robinhood76 00889 watching dog 2 dog2pup.wav” by Timbre, https://freesound.org/(67) ”Dog Barking Short Sound Effect” by SOANAC, https://www.freesoundslibrary.com/dogbarking-short-sound-effect/#google vignette  
+(66) ”Doggy Style / Robinhood76 00889 watching dog 2 dog2pup.wav” by Timbre, https://freesound.org/people/Timbre/sounds/74723/  
+(67) ”Dog Barking Short Sound Effect” by SOANAC, https://www.freesoundslibrary.com/dogbarking-short-sound-effect/#google vignette  
 (68) ”Angry Dog Barking Sound Effect” by SPANAC, https://www.freesoundslibrary.com/angrydog-barking-sound-effect/　
 (69) ”Nervous Dog Barking Sound Effect” by SPANAC, https://www.freesoundslibrary.com/nervousdog-barking-sound-effect/  
 (70) ”Angry Dog Barking Close Sound Effect” by SPANAC, https://www.freesoundslibrary.com/angry-dog-barking-close-sound-effect/

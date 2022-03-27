@@ -36,7 +36,7 @@ adultdog_to_fkn
 ```
 Voice Conversion from FKN into adult dog  
 
-# Set up dog dataset
+# Download dataset
   You can download dataset for Speak Like a dog task:  
   [here](https://drive.google.com/drive/folders/1TmG1yjc0_RLUX7U0ZJGLPVWkAwiSkSWY?usp=sharing)  
   

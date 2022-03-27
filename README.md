@@ -50,7 +50,7 @@ The audio file reads as follows．
     ```
 
 # Download dataset
-  You can download dataset for Speak Like a dog task [here](https://drive.google.com/drive/folders/1TmG1yjc0_RLUX7U0ZJGLPVWkAwiSkSWY?usp=sharing)  
+  You can download the dog dataset for Speak Like a dog task [here](https://drive.google.com/drive/folders/1TmG1yjc0_RLUX7U0ZJGLPVWkAwiSkSWY?usp=sharing)  
 
 # Credit
 The following is the original author's credit for the voice data of the dog used．  

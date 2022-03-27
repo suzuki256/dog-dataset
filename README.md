@@ -1,5 +1,10 @@
 # Dataset for Speak Like a Dog task
 
+| domain name | contents | the number of data |
+----|---- |----|
+| adultdog | Adult dogs (low voice) | 792 |
+| puppy | Puppies (high voice) | 288 |
+| dogs | Dogs (Consists of the above the domain of adultdog and puppy)
 
 Audio samples are available [here](https://drive.google.com/drive/folders/1pQcEvnD6_r9F12U7iImevYdzoTTfpr7G?usp=sharing).
   

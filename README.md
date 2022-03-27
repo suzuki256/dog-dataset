@@ -9,7 +9,7 @@ H2NH-VC is a task that converts human speech into non-human creature-like speech
 
 The Dog dataset consists of adultdog, puppy, and dogs.
 | domain name | detail | the number of data |
-----|---- |----|
+| :----: | :----: | :----: |
 | adultdog | Adult dogs voice (low voice) | 792 |
 | puppy | Puppies voice (high voice) | 288 |
 | dogs | Dogs voice (Consists of the above the domain of adultdog and puppy) | 1080 |

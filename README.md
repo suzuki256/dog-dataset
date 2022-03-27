@@ -1,12 +1,10 @@
-# 音声サンプル (audio samples) 
+# audio samples
 
-犬声合成をした音声サンプルは以下より再生可能.  
 A sample of the synthesized dog voice can be played below ．  
 
 https://drive.google.com/drive/folders/1pQcEvnD6_r9F12U7iImevYdzoTTfpr7G?usp=sharing
   
   
-ディレクトリの見方は次のようになっている.  
 The view of the directory is as follows.    
 
 ```bash
@@ -20,70 +18,34 @@ audio feature
 * mccs=mel-cepstral coefficients
 * melspec=mel-spectrogram  
 
-StarGAN-VCのdiscriminatorとclassifierのカーネルサイズに関しては次のようになっている．  
 The kernel sizes of the discriminator and classifier in StarGAN are as follows.  
 ```bash
 converted _sgvc _ [ kernel size ]  
 ```
 kernel size  
-* k_2=default kernel size - 2
-* k_1=default kernel size - 1
+* k-2=default kernel size - 2
+* k-1=default kernel size - 1
 * k1=default kernel size + 1
 * k2=default kernel size + 2  
 
-音声ファイルに関しては次のようになっている．  
+The audio file reads as follows．  
 ```bash
 [ Source Speaker ] _ to _ [ Target Speaker ]
 ```
-例　(For exsample) :  
+For exsample:  
 ```bash
 adultdog_to_fkn  
 ```
-adultdogからfknへの音声変換  
-conversion from adultdog to fkn  
+Voice Conversion from FKN into adult dog  
 
 # Set up dog dataset
 We have constructed dataset from several studies and sites.
 First, we will collect data sets for three studies
 
 1. Setup your directry of adult_dog dataset and puppy dataset. The data structure should look like:
-  '''
-  ./dataset/
-  |
-  |---adultdog/
-  |   |---adultdog_1.wav (add data in the future.)
-  |   ...
-  |---puppy/
-  |   |---puppy_1.wav (add data in the future.)
-  |   ...
-  |---dogs/
-      |---dogs_1.wav (add data in the future.)
-      ...
-  '''
-2. URBANSOUND8K DATASET
-  - You can download [here](https://urbansounddataset.weebly.com/download-urbansound8k.html). In this example it's in '''./dataset/'''
-  - Please [acknowledge](http://urbansounddataset.weebly.com/index.html#acknowledge) this dataset in academic research.
-  - Separate URBANSOUND8K DATASET into adult dogs and puppies.
-    '''
-    $ command
-    '''
-3. Acoustic Event Dataset
-  - You can download [here](https://data.vision.ee.ethz.ch/cvl/ae_dataset/ae_dataset.zip). In this example it's in '''./dataset/'''
-  - Description and policy is [here](https://data.vision.ee.ethz.ch/cvl/ae_dataset/)
-  - Separate Acoustic Event Dataset into adult dogs and puppies.
-    '''
-    $ command
-    '''
-4. ESC: Dataset for Environmental Sound Classification
-  - You can download [here](https://github.com/karoldvl/ESC-50/archive/master.zip)
-  - Description and policy is [here](https://github.com/karolpiczak/ESC-50)
-  - Separate ESC Dataset into adult dogs and puppies.
-    '''
-    $ command
-    '''
+  
 5. 
 # クレジット (credit)  
-以下に使用した犬の音声データの原作者クレジットを載せる.  
 The following is the original author's credit for the voice data of the dog used．  
 
 ※本実験で使用した犬のデータセットは，下記の音声データの内，音が極端に小さい音声，大きい音声，ノイズが大きい音声を取り除いたもので構成されている．また，成犬のような低い音声と子犬のような高い音声があるため，音の高さでデータセットを分けている．  

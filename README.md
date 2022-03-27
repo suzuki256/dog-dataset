@@ -23,22 +23,22 @@ The directory of audio samples can be viewed as follows:
 converted _ [ Voice Conversion method ] _ [ audio feature ]  
 ```
   - Voice Conversion method  
-    * sgvc=[StarGAN-VC](http://www.kecl.ntt.co.jp/people/kameoka.hirokazu/Demos/stargan-vc2/index.html)  
-    * acvae=[Auxiliary classifier Variational Autoencoder-VC](http://www.kecl.ntt.co.jp/people/kameoka.hirokazu/Demos/acvae-vc3/index.html)  
+    * sgvc = [StarGAN-VC](http://www.kecl.ntt.co.jp/people/kameoka.hirokazu/Demos/stargan-vc2/index.html)  
+    * acvae = [Auxiliary classifier Variational Autoencoder-VC](http://www.kecl.ntt.co.jp/people/kameoka.hirokazu/Demos/acvae-vc3/index.html)  
 
   - audio feature  
-    * mccs=mel-cepstral coefficients
-    * melspec=mel-spectrogram  
+    * mccs = mel-cepstral coefficients
+    * melspec = mel-spectrogram  
 
 The kernel sizes of the discriminator and classifier in StarGAN are as follows.  
 ```bash
 converted _sgvc _ [ kernel size ]  
 ```
   - kernel size  
-    * k-2=default kernel size - 2
-    * k-1=default kernel size - 1
-    * k1=default kernel size + 1
-    * k2=default kernel size + 2  
+    * k-2 = default kernel size - 2
+    * k-1 = default kernel size - 1
+    * k1 = default kernel size + 1
+    * k2 = default kernel size + 2  
 
 The audio file reads as follows．  
 ```bash

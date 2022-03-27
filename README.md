@@ -4,7 +4,7 @@ The speak like a dog task is a human to non-human creature voice conversion task
 H2NH-VC is a task that converts human speech into non-human creature-like speech while preserving linguistic information.  
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/86309284/160269270-ea2ea5ef-66cc-49e4-951f-d296b311790b.png" width="750px">
+  <img src="https://user-images.githubusercontent.com/86309284/160270800-b013b220-cb15-402d-bbf6-790396f69f2c.png" width="750px">
 </p>
 
 The Dog dataset consists of adultdog, puppy, and dogs.

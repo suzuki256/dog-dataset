@@ -3,15 +3,20 @@ The Dog dataset is an example for speak like a dog task.
 The speak like a dog task is a human to non-human creature voice conversion task that convert human speech into dog-like speech while preserving the linguistic information and  representing a dog-like elements of the target domain (H2NH-VC). 
 H2NH-VC is a task that converts human speech into non-human creature-like speech while preserving linguistic information.  
 
-| domain name | contents | the number of data |
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/86309284/160269270-ea2ea5ef-66cc-49e4-951f-d296b311790b.png" width="750px">
+</p>
+
+The Dog dataset consists of adultdog, puppy, and dogs.
+| domain name | detail | the number of data |
 ----|---- |----|
-| adultdog | Adult dogs (low voice) | 792 |
-| puppy | Puppies (high voice) | 288 |
-| dogs | Dogs (Consists of the above the domain of adultdog and puppy) | 1080 |
+| adultdog | Adult dogs voice (low voice) | 792 |
+| puppy | Puppies voice (high voice) | 288 |
+| dogs | Dogs voice (Consists of the above the domain of adultdog and puppy) | 1080 |
 
 Audio samples are available [here](https://drive.google.com/drive/folders/1pQcEvnD6_r9F12U7iImevYdzoTTfpr7G?usp=sharing).
   
-The view of the directory is as follows.    
+The directory of audio samples can be viewed as follows:    
 
 ```bash
 converted _ [ Voice Conversion method ] _ [ audio feature ]  

@@ -9,8 +9,8 @@ The view of the directory is as follows.
 converted _ [ Voice Conversion method ] _ [ audio feature ]  
 ```
 Voice Conversion method  
-* sgvc=StarGAN-VC
-* acvae=Auxiliary classifier Variational Autoencoder-VC  
+* sgvc=[StarGAN-VC](http://www.kecl.ntt.co.jp/people/kameoka.hirokazu/Demos/stargan-vc2/index.html)
+* acvae=[Auxiliary classifier Variational Autoencoder-VC](http://www.kecl.ntt.co.jp/people/kameoka.hirokazu/Demos/acvae-vc3/index.html)  
 
 audio feature  
 * mccs=mel-cepstral coefficients
@@ -30,11 +30,10 @@ The audio file reads as follows．
 ```bash
 [ Source Speaker ] _ to _ [ Target Speaker ]
 ```
-For exsample:  
+For exsample: Voice conversion from fkn into adultdog 
 ```bash
 adultdog_to_fkn  
 ```
-Voice Conversion from FKN into adult dog  
 
 # Download dataset
   You can download dataset for Speak Like a dog task:  

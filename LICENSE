@@ -9,8 +9,8 @@ Attribution-NonCommercial license (https://creativecommons.org/share-your-work/p
 ## Remember to cite the following license when you use it
 
 1. Acoustic Event Dataset
-  - You can download [here](https://data.vision.ee.ethz.ch/cvl/ae_dataset/ae_dataset.zip). 
-  - Description and policy is [here](https://data.vision.ee.ethz.ch/cvl/ae_dataset/)
+  - The dataset is available (https://data.vision.ee.ethz.ch/cvl/ae_dataset/ae_dataset.zip). 
+  - Description and policy is (https://data.vision.ee.ethz.ch/cvl/ae_dataset/)
   - Naoya Takahashi, Michael Gygli, Beat Pfister and Luc Van Gool, ”Deep Convolutional Neural Networks and Data Augmentation for Acoustic Event Recognition”,
     Proc. Interspeech 2016, San Fransisco  
   - Separate Acoustic Event Dataset into adult dogs and puppies, and the others are deleate
@@ -32,8 +32,8 @@ Attribution-NonCommercial license (https://creativecommons.org/share-your-work/p
       dog_barking_7.wav, dog_barking_9.wav, dog_barking_19.wav, dog_barking_24
     
 2. ESC: Dataset for Environmental Sound Classification
-  - You can download [here](https://github.com/karoldvl/ESC-50/archive/master.zip)
-  - Description and policy is [here](https://github.com/karolpiczak/ESC-50)
+  - The dataset is available (https://github.com/karoldvl/ESC-50/archive/master.zip)
+  - Description and policy is (https://github.com/karolpiczak/ESC-50)
   - K. J. Piczak. ESC: Dataset for Environmental Sound Classification. Proceedings of the 23rd Annual ACM Conference on Multimedia, Brisbane, Australia, 2015.
     [DOI: http://dx.doi.org/10.1145/2733373.2806390]  
   - Separate ESC Dataset into adult dogs and puppies, and the others are deleate.
@@ -46,8 +46,8 @@ Attribution-NonCommercial license (https://creativecommons.org/share-your-work/p
       1-97392-A-0.wav, 1-100032-A-0.wav, 5-9032-A-0.wav, 5-208030-A-0.wav
      
 3. URBANSOUND8K DATASET
-  - You can download [here](https://urbansounddataset.weebly.com/download-urbansound8k.html). In this example it's in '''./dataset/'''
-  - Please [acknowledge](http://urbansounddataset.weebly.com/index.html#acknowledge) this dataset in academic research.
+  - The dataset is available (https://urbansounddataset.weebly.com/download-urbansound8k.html). In this example it's in '''./dataset/'''
+  - Description and policy is (http://urbansounddataset.weebly.com/index.html#acknowledge).
   - C. Jacoby and J. P. Bello, ”A Dataset and Taxonomy for Urban Sound Research”, 22nd ACM International Conference on Multimedia, Orlando USA, Nov. 2014.
   - Separate URBANSOUND8K DATASET into adult adult dogs and puppies, and the others are deleate.
     # Adult dog
@@ -100,8 +100,8 @@ Attribution-NonCommercial license (https://creativecommons.org/share-your-work/p
       99185-3-0-0.wav
       
 4. BarkMeowDB - WAV Files of Dogs and Cats
-  - You can download [here](https://zenodo.org/record/3563990/files/barkmeow_v0.2.tar.gz?download=1). In this example it's in '''./dataset/'''
-  - Description and policy is [here](https://zenodo.org/record/3563990#.Yj69FufP3b1).
+  - The dataset is available (https://zenodo.org/record/3563990/files/barkmeow_v0.2.tar.gz?download=1). In this example it's in '''./dataset/'''
+  - Description and policy is (https://zenodo.org/record/3563990#.Yj69FufP3b1).
   - Suh, Dan. (2019). BarkMeowDB - WAV Files of Dogs and Cats (0.2) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.3563990
   - Separate URBANSOUND8K DATASET into adult adult dogs and puppies, and the others are deleate.
     # Adult dog

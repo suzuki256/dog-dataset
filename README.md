@@ -52,6 +52,9 @@ adultdog_to_fkn
   You can download dataset for Speak Like a dog task:  
   [here](https://drive.google.com/drive/folders/1TmG1yjc0_RLUX7U0ZJGLPVWkAwiSkSWY?usp=sharing)  
   
+# Result
+
+
 # Credit
 The following is the original author's credit for the voice data of the dog used．  
 The dog dataset used in this experiment consists of the following speech data, from which extremely quiet, loud, and noisy sounds are removed. The dataset is divided into two datasets based on sound height, since there are low sounds like adult dogs and high sounds like puppies.  

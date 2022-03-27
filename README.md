@@ -14,6 +14,7 @@ The Dog dataset consists of adultdog, puppy, and dogs.
 | puppy | Puppies voice (high voice) | 288 |
 | dogs | Dogs voice (Consists of the above the domain of adultdog and puppy) | 1080 |
 
+# Audio samples
 Audio samples are available [here](https://drive.google.com/drive/folders/1pQcEvnD6_r9F12U7iImevYdzoTTfpr7G?usp=sharing).
   
 The directory of audio samples can be viewed as follows:    
@@ -21,39 +22,35 @@ The directory of audio samples can be viewed as follows:
 ```bash
 converted _ [ Voice Conversion method ] _ [ audio feature ]  
 ```
-Voice Conversion method  
-* sgvc=[StarGAN-VC](http://www.kecl.ntt.co.jp/people/kameoka.hirokazu/Demos/stargan-vc2/index.html)
-* acvae=[Auxiliary classifier Variational Autoencoder-VC](http://www.kecl.ntt.co.jp/people/kameoka.hirokazu/Demos/acvae-vc3/index.html)  
+  - Voice Conversion method  
+    * sgvc=[StarGAN-VC](http://www.kecl.ntt.co.jp/people/kameoka.hirokazu/Demos/stargan-vc2/index.html)  
+    * acvae=[Auxiliary classifier Variational Autoencoder-VC](http://www.kecl.ntt.co.jp/people/kameoka.hirokazu/Demos/acvae-vc3/index.html)  
 
-audio feature  
-* mccs=mel-cepstral coefficients
-* melspec=mel-spectrogram  
+  - audio feature  
+    * mccs=mel-cepstral coefficients
+    * melspec=mel-spectrogram  
 
 The kernel sizes of the discriminator and classifier in StarGAN are as follows.  
 ```bash
 converted _sgvc _ [ kernel size ]  
 ```
-kernel size  
-* k-2=default kernel size - 2
-* k-1=default kernel size - 1
-* k1=default kernel size + 1
-* k2=default kernel size + 2  
+  - kernel size  
+    * k-2=default kernel size - 2
+    * k-1=default kernel size - 1
+    * k1=default kernel size + 1
+    * k2=default kernel size + 2  
 
 The audio file reads as follows．  
 ```bash
 [ Source Speaker ] _ to _ [ Target Speaker ]
 ```
-For exsample: Voice conversion from fkn into adultdog 
-```bash
-adultdog_to_fkn  
-```
+  - For exsample: adultdog to fkn voice conversion 
+    ```bash
+    adultdog_to_fkn  
+    ```
 
 # Download dataset
-  You can download dataset for Speak Like a dog task:  
-  [here](https://drive.google.com/drive/folders/1TmG1yjc0_RLUX7U0ZJGLPVWkAwiSkSWY?usp=sharing)  
-  
-# Result
-
+  You can download dataset for Speak Like a dog task [here](https://drive.google.com/drive/folders/1TmG1yjc0_RLUX7U0ZJGLPVWkAwiSkSWY?usp=sharing)  
 
 # Credit
 The following is the original author's credit for the voice data of the dog used．  
@@ -68,5 +65,5 @@ The dataset and its contents are made available on an "as is" basis and without 
 
 # Feedback
 
-Please help us improve UrbanSound8K by sending your feedback to: justin.salamon@nyu.edu or justin.salamon@gmail.com
+Please help us improve Dog dataset by sending your feedback to: suzuki.kohei@em.ci.ritsumei.ac.jp
 In case of a problem report please include as many details as possible.

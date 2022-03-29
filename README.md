@@ -11,7 +11,7 @@ An ovetview of the speak like a dog task is shown in the following figure
 The Dog dataset consists of adultdog, puppy, and dogs.
 | domain name | detail | the number of data |
 | :----: | :----: | :----: |
-| adultdog | Adult dogs voice (low voice) | 792 |
+| adult_dog | Adult dogs voice (low voice) | 792 |
 | puppy | Puppies voice (high voice) | 288 |
 | dogs | Dogs voice (Consists of the above the domain of adultdog and puppy) | 1080 |
 

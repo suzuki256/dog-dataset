@@ -52,8 +52,8 @@ The audio file reads as follows．
 # Setup
 ## Download dataset
   - You can download the dog dataset for Speak Like a dog task [here](https://drive.google.com/drive/folders/1TmG1yjc0_RLUX7U0ZJGLPVWkAwiSkSWY?usp=sharing)  
-  - Please collect your own datasets for human speech signals.
-    (We used [ATR digital sound database **set B**](http://www.atr-p.com/products/sdb.html#DIGI))
+  - Please collect your own datasets for human speech signals.  
+    (We used [ATR digital sound database **set B**](http://www.atr-p.com/products/sdb.html#DIGI) in our paper.)
 ## preprocess
   Before training your VC model by using the dog dataset, please preprocess the dog dataset to remove fine noise.
 

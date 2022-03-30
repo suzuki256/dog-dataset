@@ -28,7 +28,7 @@ converted _ [ Voice Conversion method ] _ [ audio feature ]
     * acvae = [Auxiliary classifier Variational Autoencoder-VC](http://www.kecl.ntt.co.jp/people/kameoka.hirokazu/Demos/acvae-vc3/index.html)  
 
   - audio feature  
-    * mccs = mel-cepstral coefficients
+    * mcc = mel-cepstral coefficients
     * melspec = mel-spectrogram  
 
 The kernel sizes of the discriminator and classifier in StarGAN are as follows.  

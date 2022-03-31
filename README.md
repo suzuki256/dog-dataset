@@ -56,6 +56,7 @@ The audio file reads as follows．
     (We used [ATR digital sound database **set B**](http://www.atr-p.com/products/sdb.html#DIGI) in our paper.)
 ## preprocess
   Before training your VC model by using the dog dataset, please preprocess the dog dataset to remove fine noise.
+  Code that we used in experiment is aveirable [here](https://github.com/suzuki256/dog-dataset/blob/main/extract_features.py). 
 
 # Credit
 The following is the original author's credit for the voice data of the dog used．  

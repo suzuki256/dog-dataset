@@ -15,7 +15,7 @@ The Dog dataset consists of adultdog, puppy, and dogs.
 | puppy | Puppies voice (high voice) | 288 |
 | dogs | Dogs voice (Consists of the above the domain of adult_dog and puppy) | 1080 |
 
-# Audio samples
+# Converted audio samples
 Audio samples are available [here](https://drive.google.com/drive/folders/1aQ5o0Ond50nbAvZsp_me4b97j8VtLYbz?usp=sharing).
   
 The directory of audio samples can be viewed as follows:    

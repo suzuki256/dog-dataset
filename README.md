@@ -18,7 +18,7 @@ The Dog dataset consists of adultdog, puppy, and dogs.
 # Paper
 K. Suzuki, S. Sakamoto, T. Taniguchi, and H. Kameoka, “Speak
 like a dog: Human to non-human creature voice conversion,”
-2022. [paper](https://arxiv.org/abs/2206.04780).  
+2022. [(paper)](https://arxiv.org/abs/2206.04780)   
 
 # Converted audio samples
 Audio samples are available [here](https://drive.google.com/drive/folders/1aQ5o0Ond50nbAvZsp_me4b97j8VtLYbz?usp=sharing).

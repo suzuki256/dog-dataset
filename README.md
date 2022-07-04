@@ -41,10 +41,10 @@ The kernel sizes of the discriminator and classifier in StarGAN are as follows.
 converted _sgvc _ [ kernel size ]  
 ```
   - kernel size  
-    * k-2 = default kernel size - 2
-    * k-1 = default kernel size - 1
-    * k1 = default kernel size + 1
-    * k2 = default kernel size + 2  
+    * kernel - 2 = default kernel size - 2
+    * kernel - 1 = default kernel size - 1
+    * kernel + 1 = default kernel size + 1
+    * kernel + 2 = default kernel size + 2  
 
 The audio file reads as follows．  
 ```bash

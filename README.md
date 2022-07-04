@@ -15,6 +15,11 @@ The Dog dataset consists of adultdog, puppy, and dogs.
 | puppy | Puppies voice (high voice) | 288 |
 | dogs | Dogs voice (Consists of the above the domain of adult_dog and puppy) | 1080 |
 
+# Paper
+K. Suzuki, S. Sakamoto, T. Taniguchi, and H. Kameoka, “Speak
+like a dog: Human to non-human creature voice conversion,”
+2022. [paper](https://arxiv.org/abs/2206.04780).  
+
 # Converted audio samples
 Audio samples are available [here](https://drive.google.com/drive/folders/1aQ5o0Ond50nbAvZsp_me4b97j8VtLYbz?usp=sharing).
   
@@ -57,11 +62,6 @@ The audio file reads as follows．
 ## preprocess
   Before training your VC model by using the dog dataset, please preprocess the dog dataset to remove fine noise.
   Code that we used in experiment is aveirable [here](https://github.com/suzuki256/dog-dataset/blob/main/extract_features.py). 
-  
-# Paper
-K. Suzuki, S. Sakamoto, T. Taniguchi, and H. Kameoka, “Speak
-like a dog: Human to non-human creature voice conversion,”
-2022. [paper](https://arxiv.org/abs/2206.04780).  
 
 # Credit
 The following is the original author's credit for the voice data of the dog used．  

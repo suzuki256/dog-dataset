@@ -24,11 +24,11 @@ The directory of audio samples can be viewed as follows:
 converted _ [ Voice Conversion method ] _ [ audio feature ]  
 ```
   - Voice Conversion method  
-    * sgvc = [StarGAN-VC](http://www.kecl.ntt.co.jp/people/kameoka.hirokazu/Demos/stargan-vc2/index.html)  
-    * acvae = [Auxiliary classifier Variational Autoencoder-VC](http://www.kecl.ntt.co.jp/people/kameoka.hirokazu/Demos/acvae-vc3/index.html)  
+    * StarGAN = [StarGAN-VC](http://www.kecl.ntt.co.jp/people/kameoka.hirokazu/Demos/stargan-vc2/index.html)  
+    * ACVAE = [Auxiliary classifier Variational Autoencoder-VC](http://www.kecl.ntt.co.jp/people/kameoka.hirokazu/Demos/acvae-vc3/index.html)  
 
   - audio feature  
-    * mcc = mel-cepstral coefficients
+    * MCC = mel-cepstral coefficients
     * melspec = mel-spectrogram  
 
 The kernel sizes of the discriminator and classifier in StarGAN are as follows.  

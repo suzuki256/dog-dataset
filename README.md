@@ -50,7 +50,7 @@ The audio file reads as follows．
 ```bash
 [ Source Speaker ] _ to _ [ Target Speaker ]
 ```
-  - For exsample: adultdog to fkn voice conversion 
+  - For exsample: convert adult dog voice to fkn voice
     ```bash
     adultdog_to_fkn  
     ```
